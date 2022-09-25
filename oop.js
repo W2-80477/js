@@ -21,6 +21,7 @@
 //  talk: function(){
 // console.log("my name is " , this.firstName, this.lastName);
 // }
+
 // }
 // let person1 ={
 //   firstName: "ms",
