@@ -52,4 +52,11 @@ let person_func=printDetails.bind(person);
 let person2_func=printDetails.bind(person2);
 
 person_func();
+
+person2_func();
+
+
+
+person_func();
+
 person2_func();

@@ -115,7 +115,7 @@ d  = string.replace("jai sri Ganesha", "om namo sivay");
 
 // date
 let date = new Date();
-// console.log(date.getTime());
+console.log(date.getTime());
 // console.log(date.getFullYear());
 // console.log(date.getDay());
 // console.log(date.getMinutes());
@@ -125,7 +125,7 @@ let date = new Date();
 // console.log(date.getSeconds());
 
 // Dom (docoment object model) manipulation
-let elem=document.getElementById("click");
+// let elem=document.getElementById("click");
 // console.log(elem);
 
 let elemclass=document.getElementsByClassName("container");
