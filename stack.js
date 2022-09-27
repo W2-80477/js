@@ -30,3 +30,7 @@ stack.push(10)
 stack.push(30)
 console.log(stack.size());
 console.print();
+
+
+
+console.log("hellpo s");
