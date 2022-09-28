@@ -33,31 +33,23 @@
 // person.talk.call(person1)
 
 // Bind
-let person={
-  firstName: "satyam",
-  LastNmae: "kumar",
+// let person={
+//   firstName: "satyam",
+//   LastNmae: "kumar",
   
-}
+// }
 
 
-let person2={
-  firstName:"ms",
-  LastNmae:"dhoni"
-}
-function printDetails(){
-  console.log(this);
-  console.log(this);
-  console.log(this.firstName +" "+ this.LastNmae)
-}
-let person_func=printDetails.bind(person);
-let person2_func=printDetails.bind(person2);
+// let person2={
+//   firstName:"ms",
+//   LastNmae:"dhoni"
+// }
+// function printDetails(){
+//   console.log(this);
+//   console.log(this);
+//   console.log(this.firstName +" "+ this.LastNmae)
+// }
+// let person_func=printDetails.bind(person);
+// let person2_func=printDetails.bind(person2);
 
-person_func();
-
-person2_func();
-
-
-
-person_func();
-
-person2_func();
+// person_func();
