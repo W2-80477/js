@@ -46,6 +46,7 @@ let person2={
 }
 function printDetails(){
   console.log(this);
+  console.log(this);
   console.log(this.firstName +" "+ this.LastNmae)
 }
 let person_func=printDetails.bind(person);
