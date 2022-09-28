@@ -53,3 +53,4 @@
 // let person2_func=printDetails.bind(person2);
 
 // person_func();
+console.log("satyam");
