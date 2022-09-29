@@ -46,4 +46,4 @@ const pattern = /\S+@[a-z]+.\S+/;
 const input = "ada@gmail.com"
 const res = pattern.test(input);
 console.log(res);
-
+console.log("satyam");
