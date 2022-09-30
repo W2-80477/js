@@ -20,17 +20,17 @@ class stack{
     print(){
         console.log(this.items.toString());
     }
+
 }
-// const stack =new stack();
-// console.log(stack.isEmpty());
+const stackInt =new stack();
+console.log(stackInt.isEmpty());
 
 
-stack.push(20)
-stack.push(10)
-stack.push(30)
-console.log(stack.size());
-console.print();
-
-
-
-// console.log("hellpo s");
+stackInt.push(20)
+stackInt.push(10)
+stackInt.push(30)
+stackInt.push(50)
+stackInt.push(11)
+console.log(stackInt);
+console.log(stackInt.size())
+console.log(stackInt.peek());
