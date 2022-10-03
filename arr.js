@@ -61,3 +61,24 @@ let t=number.filter((a)=>{
      return a%2==0;
 })
 // console.log(t);
+
+// function sumArr(arr){
+//     let sum=0;
+//     for(let i=0;i<arr.length; i++){
+//      sum +=arr[i];
+//     }
+//     return sum;
+//  }
+//  const arr=[10,20,30,40];
+//  console.log(sumArr(arr));
+
+// function Array_sum(arr){
+//     if(arr.length==0){
+//         return 0;
+//     }
+//     const currentElment=arr(arr.length-1)
+//     arr.pop();
+//     return currentElment+Array_sum (arr)
+// }
+// const arr=[10,20,30,40]
+// console.log(currentElment)
