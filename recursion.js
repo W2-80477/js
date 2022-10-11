@@ -27,7 +27,7 @@
 //         greet(i);
 //     }
 // }
-// greet(0);
+// greet(1);
 
 
 
@@ -52,6 +52,41 @@
 //     }
 // }
 // console.log(fact(5));
+
+
+// find the first product naturl number
+
+// function product(n){
+//     let prod=1;
+//     for(let i=1; i<n ; i++){
+//         prod=prod*i;
+
+//     }
+//     return prod;
+
+// }
+// console.log( product(1));
+
+//find the sum of first natural number
+// function natural_number(n){
+//   let sum=0;
+//   for(let i=1; i<=n; i++){
+//     sum +=i;
+//   }
+//   return sum;
+// }
+// console.log(natural_number(5))
+
+// function sum(n){
+// if (n==6) {
+//     return 0;
+// }else{
+//     return n+sum(n+1);
+// }
+// }
+// console.log(sum(1));
+
+
 
 
 // print revrce number 
@@ -79,13 +114,26 @@
 // }
 // console.log(fibonacci_series(8));
 
-function fibonacci(n){
-    if(n < 2) return n
-    return fibonacci(n-1) + fibonacci(n-2)
-   }
+// function fibonacci(n){
+//     if(n < 2) return n
+//     return fibonacci(n-1) + fibonacci(n-2)
+//    }
    
-   const num = 7;
+//    const num = 7;
    
-   for(let i = 0; i<num;  ++i){
-    console.log(fibonacci(i))
-   }
+//    for(let i = 0; i<num;  ++i){
+//     console.log(fibonacci(i))
+//    }
+
+
+
+//    function range(n){
+//     if(n===5){
+       
+//     }else{
+//         console.log(n);
+//         n++;
+//         range(n)
+//     }
+// }
+// range(0)

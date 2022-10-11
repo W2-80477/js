@@ -9,7 +9,7 @@
 // console.log(res);
 
 // const pattern=/[^abc]/;
-// const input="afksncdd";
+// const input="abc";
 // const result = pattern.test(input);
 // console.log(result);
 

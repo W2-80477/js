@@ -1,36 +1,41 @@
-class stack{
-    constructor(){
-        this.items=[];
-    }
-    push(element){
-        this.items.push(element);
-    }
-    pop(){
-        return this.items()
-    }
-    peek(){
-        return this.items[this.items.length-1]
-    }
-    isEmpty(){
-        return this.items.length==0
-    }
-    size(){
-        return this.items.length
-    }
-    print(){
-        console.log(this.items.toString());
-    }
-
+/*class Stack{
+  constructor(){
+    this.items=[];
+  }
+  add(elements){
+    return this.items.push(elements);
+  }
+  size(){
+    return this.items.length;
+  }
+  peek(){
+    return this.items[this.items.length-1]
+  }
+  remove(){
+    return this.items.pop();
+  }
+  isEmpty(){
+    return this.items.length==0;
+  }
+  clear(){
+    this.items=[];
+  }
 }
-const stackInt =new stack();
-console.log(stackInt.isEmpty());
 
 
-stackInt.push(20)
-stackInt.push(10)
-stackInt.push(30)
-stackInt.push(50)
-stackInt.push(11)
-console.log(stackInt);
-console.log(stackInt.size())
-console.log(stackInt.peek());
+
+let stack = new Stack();
+stack.add(1);
+stack.add(2);
+stack.add(3);
+stack.add(0);
+console.log(stack.items);
+console.log(stack.peek());
+console.log(stack.isEmpty());
+
+stack.remove();
+console.log(stack.items);
+console.log(stack.size());
+
+stack.clear();
+console.log(stack.items)*/
