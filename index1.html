@@ -1,12 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>calculator</title>
+<style>
+body{
+background:linear-gradient(#14ff0c,#d65359,blue);
+}
+*{box-sizing:border-box}
+.cal{height:800px; width:100%; padding:10px; margin:auto;}
+input[type=text]{width:595px; height:60px; margin:auto; font-size:50px; padding:10px color  linear-gradient(#ff990c,#faf1fb,green);}
+input[type=button]{width:145px; height:100px; margin:auto; font-size:40px; padding:10px;font-weight:bold;text-size:30px;background:linear-gradient(#ff990c,#faf1fb,green);}
+#sk{width:595px;}
+h1.ram{text-color : rgb(128, 83, 0);}
+</style><!_created by Satyam kumar _>
 </head>
-<body>
-    
+<body align="center">
+<h1 align="center" class="ram">Calculator</h1>
+<div class="cal">
+<form name="cal">
+<input id="display" name="display" type="text" placeholder="         " readonly><Br><br>
+<input type="button" value="9" name="9" onclick="cal.display.value+='9' ">
+<input type="button" value="8" name="8" onclick="cal.display.value+='8' ">
+<input type="button" value="7" name="7" onclick="cal.display.value+='7' ">
+<input type="button" value="+" name="+" onclick="cal.display.value+='+' ">
+<br><br>
+<input type="button" value="6" name="6" onclick="cal.display.value+='6' ">
+<input type="button" value="5" name="5" onclick="cal.display.value+='5' ">
+<input type="button" value="4" name="4" onclick="cal.display.value+='4' ">
+<input type="button" value="-" name="-" onclick="cal.display.value+='-' ">
+<br><br>
+<input type="button" value="3" name="3" onclick="cal.display.value+='3' ">
+<input type="button" value="2" name="2" onclick="cal.display.value+='2' ">
+<input type="button" value="1" name="1" onclick="cal.display.value+='1' ">
+<input type="button" value="*" name="*" onclick="cal.display.value+='*' ">
+<br><br>
+<input type="button" value="0" name="0" onclick="cal.display.value+='0' ">
+<input type="button" value="." name="." onclick="cal.display.value+='.' ">
+<input type="button" value="/" name="/" onclick="cal.display.value+='/' ">
+<input type="button" value="delete" name="c" onclick="cal.display.value=''">
+<br><br>
+<input type="button" value="=" name="=" onclick="cal.display.value=eval(cal.display.value)" id="hk">
+
 </body>
 </html>
